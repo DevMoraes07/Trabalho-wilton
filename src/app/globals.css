@@ -1,0 +1,63 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 212 21% 8%;
+    --foreground: 210 20% 98%;
+    --card: 212 21% 10%;
+    --card-foreground: 210 20% 98%;
+    --popover: 212 21% 8%;
+    --popover-foreground: 210 20% 98%;
+    --primary: 209 81% 60%;
+    --primary-foreground: 210 20% 98%;
+    --secondary: 180 70% 50%;
+    --secondary-foreground: 212 21% 8%;
+    --muted: 212 21% 15%;
+    --muted-foreground: 210 20% 70%;
+    --accent: 180 70% 50%;
+    --accent-foreground: 212 21% 8%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 20% 98%;
+    --border: 212 21% 18%;
+    --input: 212 21% 18%;
+    --ring: 209 81% 60%;
+    --radius: 0.25rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground font-body;
+    scroll-behavior: smooth;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-headline tracking-tight;
+  }
+}
+
+.engineering-grid {
+  background-image: linear-gradient(rgba(71, 156, 235, 0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(71, 156, 235, 0.05) 1px, transparent 1px);
+  background-size: 40px 40px;
+}
+
+@keyframes reveal {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.reveal-on-scroll {
+  animation: reveal 0.8s ease-out forwards;
+}

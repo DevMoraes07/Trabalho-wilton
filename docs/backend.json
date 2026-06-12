@@ -1,0 +1,49 @@
+
+{
+  "entities": {
+    "Lead": {
+      "title": "Lead",
+      "description": "Solicitação técnica de orçamento enviada por um cliente em potencial.",
+      "type": "object",
+      "properties": {
+        "name": { "type": "string", "description": "Nome completo do interessado." },
+        "email": { "type": "string", "format": "email", "description": "E-mail de contato." },
+        "service": { "type": "string", "description": "Tipo de serviço solicitado." },
+        "urgency": { "type": "string", "enum": ["critical", "standard", "planning"], "description": "Nível de prioridade." },
+        "details": { "type": "string", "description": "Detalhes técnicos do projeto." },
+        "createdAt": { "type": "string", "format": "date-time", "description": "Data de criação do registro." }
+      },
+      "required": ["name", "email", "service", "details"]
+    },
+    "CaseStudy": {
+      "title": "Case Study",
+      "description": "Estudo de caso técnico gerado por IA com base em parâmetros de engenharia.",
+      "type": "object",
+      "properties": {
+        "projectName": { "type": "string" },
+        "projectType": { "type": "string" },
+        "location": { "type": "string" },
+        "client": { "type": "string" },
+        "materials": { "type": "string" },
+        "loads": { "type": "string" },
+        "challenges": { "type": "string" },
+        "description": { "type": "string", "description": "O texto narrativo gerado pela IA." },
+        "createdAt": { "type": "string", "format": "date-time" }
+      },
+      "required": ["projectName", "description"]
+    }
+  },
+  "auth": {
+    "providers": ["google.com"]
+  },
+  "firestore": {
+    "/leads/{leadId}": {
+      "schema": { "$ref": "#/backend/entities/Lead" },
+      "description": "Coleção de leads e pedidos de orçamento."
+    },
+    "/caseStudies/{studyId}": {
+      "schema": { "$ref": "#/backend/entities/CaseStudy" },
+      "description": "Coleção de narrativas técnicas geradas por IA."
+    }
+  }
+}

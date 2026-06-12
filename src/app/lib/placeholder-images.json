@@ -1,0 +1,77 @@
+
+{
+  "placeholderImages": [
+    {
+      "id": "proj-estrutural",
+      "description": "Projeto Estrutural",
+      "imageUrl": "https://images.openai.com/static-rsc-4/U2xecPKYq6HvQ-_fqwL-bybX9bxvtE-QM35c9-pxp_DZ8sBE0tP13bEtCoAjnJXZozncsvcDzGbpuyckLire8kaiwTVkLrAmTfMhOx0gMLyEBlB0OVSEWfRWn3Uw3S_Qzl6HvHfIZophZSXNybDAjIPpUTOO4pb7WWRmERp7UKQ?purpose=inline",
+      "imageHint": "structural engineering"
+    },
+    {
+      "id": "proj-eletrico",
+      "description": "Projeto Elétrico",
+      "imageUrl": "https://images.openai.com/static-rsc-4/XZlJMklsXBPV7uoc0p3xIHbeWGPB9aYxoUJFBu6Ex1mg8brohnwBJY8uU7IEK_e_C4IGfGd8tjk68hi8UJERhnH3EUjf0rgaaa1q7TLAvXFAII1JyGqNljyqMouMxYyO_FbNTdHfDY0xTEyOhZTfMJXKFvHGlmLI4Hhic-yPALU?purpose=inline",
+      "imageHint": "electrical cables"
+    },
+    {
+      "id": "proj-hidraulico",
+      "description": "Projeto Hidráulico",
+      "imageUrl": "https://images.openai.com/static-rsc-4/W4vipKnrXeOIcBOp1YpTTD1KTzvPTeFWy2RLolueJaPXquf7gRZyhn8X1snvQEyEO8Rqo_2pM--dSy1fDMB-jvwzM6aAenvAZ8GPnWa0dLkFsLOGri58c9PpCignVU5-E9sx-mbO67YbIuQ8WdnYDAC38rEz18f6o24-EGAym8A?purpose=inline",
+      "imageHint": "plumbing pipes"
+    },
+    {
+      "id": "proj-acustico",
+      "description": "Projeto Acústico",
+      "imageUrl": "https://images.openai.com/static-rsc-4/Yg1Ljis4ce7lv0AyepKcmfJjO_zqSi071Pxua9jF3K03pAaWyxNHkLPGBMg7OkBwoXM-dUh3CPT29rp7nTIaHcvbgQ9_aWPMZtVcl0SzPZUuhfbPOv4nowI-BTWh_W0J4Hvw4mTZ3N1HtCTEAmHNoMqlqUEkBdEukgDSzzMcIZI?purpose=inline",
+      "imageHint": "acoustic design"
+    },
+    {
+      "id": "proj-bombeiros",
+      "description": "Projeto Bombeiros (AVCB/CLCB)",
+      "imageUrl": "https://images.openai.com/static-rsc-4/hR2sOvAUlTngjhvU-6PBekLZxQdKOXoZL479s76S5qAO2DhuJeFOKBBqjOLz9lcPndOCtbJ5U2gGLBFB0rN9PAB5ytmk0tbiez-bzLgqaBwXqrL7IhiB-ixyDTfb46v0ih2S6pvsUnlVItUA-c_4kyhwy2t0qMyc1p-VMjB6pr3q5b6WBuEKv2g0j1ZI5Sa0?purpose=fullsize",
+      "imageHint": "fire extinguisher"
+    },
+    {
+      "id": "proj-arquitetonico",
+      "description": "Projeto Arquitetônico",
+      "imageUrl": "https://images.openai.com/static-rsc-4/bxDwlshiA65MJfxULJ1jD0dUi-1nwr4ewFghXTGzYpRHZOQqt5b4-0EvSqbaTov_QA_Ii_nGxroGJxpSatMeRWY5qL3ewlAd8O85qyNZCHfxL-IyzTgsQYeg6ctd0OrUb2vOq8aXk7Y_WFfhq5aPZq3jichvEKkkn1Em5na9c18?purpose=inline",
+      "imageHint": "modern architecture"
+    },
+    {
+      "id": "proj-automacao",
+      "description": "Projeto de Automação",
+      "imageUrl": "https://images.openai.com/static-rsc-4/z_seQeRUFXXDcKN2qoShDXDQSfKxoPapjlp1l-Vt7HTeTeLYXqt_LlP6kMPPjGeRSCG7bHiG4VqFClLRL5lBgDLHUks5pXNw58vDbBFvzMGzbaJapCTAtYvnXvcfcekZyb3C-PwPlu1oWZzyilejxZqCzAggboDA9quK15OGXMI?purpose=inline",
+      "imageHint": "smart home"
+    },
+    {
+      "id": "laudo-acustico",
+      "description": "Laudo Acústico",
+      "imageUrl": "https://images.openai.com/static-rsc-4/-0zgCSAbE7SYHo7PzIaA_PeIzAZzBM9LW_qEKHp2MEoSQ8QkVmTFLdlc2LzT0-RkuBEak-OmwKcizFh64Y_nGDCzGbc88N1IhQtpJWrPwGlxPOKUeWq2jRrfaDCpgfQLmt1bsykJdcyq2vywxgCcEL5IYXgRdYAix9L6Xy74UdI?purpose=inline",
+      "imageHint": "sound meter"
+    },
+    {
+      "id": "laudo-vistoria",
+      "description": "Laudo de Vistoria",
+      "imageUrl": "https://images.openai.com/static-rsc-4/B9DgMsFHZ34mg0Hczya9Gtn8bzsTIQL6yEbCoQbyNPX-YTbPwI5bES88nH1eOkAQaIsFIlJvs4ftjInJS_Ro6OzOgmjQ3txig3BXST67GAC0BeuJ-lfx-gNX2diBwzr1WJwif3i5tyUDckVJFdYTUxKi1tkJg9IOUILcJDBYVrM?purpose=inline",
+      "imageHint": "building inspection"
+    },
+    {
+      "id": "laudo-estrutural",
+      "description": "Laudo Estrutural",
+      "imageUrl": "https://images.openai.com/static-rsc-4/P8ufKzMQGFGOuVJXQHBTR0x2QgB_bu-5rojTU-48ROIrkd8ssNbb0LTgrL7JUprfnjwv-nZtuRqlwMlMUM4-QR6H8NMUKW3Vhp8jwgLhwqbN7r3OZ2K96-5H7MC-SFZdysdPE3gUhyLmfUwaV3Fukikx5woedrsFVFgdXMgOVk8?purpose=inline",
+      "imageHint": "concrete crack"
+    },
+    {
+      "id": "hero-blueprint",
+      "description": "Planta Técnica de Engenharia",
+      "imageUrl": "https://picsum.photos/seed/wilton/800/1000",
+      "imageHint": "engineering drawing"
+    },
+    {
+      "id": "about-rigor",
+      "description": "Precisão em Engenharia",
+      "imageUrl": "https://picsum.photos/seed/eng4/800/800",
+      "imageHint": "technical plan"
+    }
+  ]
+}

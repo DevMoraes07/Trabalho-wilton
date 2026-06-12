@@ -1,0 +1,40 @@
+{
+  "placeholderImages": [
+    {
+      "id": "bridge-design",
+      "description": "Structural Bridge Design",
+      "imageUrl": "https://picsum.photos/seed/bridge1/800/600",
+      "imageHint": "bridge engineering"
+    },
+    {
+      "id": "skyscraper",
+      "description": "High-Rise Building Structure",
+      "imageUrl": "https://picsum.photos/seed/sky1/800/1000",
+      "imageHint": "skyscraper construction"
+    },
+    {
+      "id": "industrial",
+      "description": "Industrial Plant Layout",
+      "imageUrl": "https://picsum.photos/seed/ind1/800/600",
+      "imageHint": "industrial engineering"
+    },
+    {
+      "id": "residential",
+      "description": "Residential Complex Foundation",
+      "imageUrl": "https://picsum.photos/seed/res1/800/600",
+      "imageHint": "foundation building"
+    },
+    {
+      "id": "analysis",
+      "description": "Finite Element Analysis Visualization",
+      "imageUrl": "https://picsum.photos/seed/fea1/800/800",
+      "imageHint": "engineering simulation"
+    },
+    {
+      "id": "site-mgmt",
+      "description": "Site Management and Logistics",
+      "imageUrl": "https://picsum.photos/seed/site1/800/600",
+      "imageHint": "construction site"
+    }
+  ]
+}
