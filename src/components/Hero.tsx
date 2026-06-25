@@ -23,7 +23,7 @@ export function Hero() {
             Construindo o <br /> <span className="text-primary">Futuro</span> com <br /> Rigor Estrutural
           </h1>
           <p className="text-lg md:text-xl text-muted-foreground max-w-xl mb-10 leading-relaxed">
-            Wilton é um engenheiro estrutural dedicado a transformar visões arquitetônicas complexas em realidades seguras, eficientes e duradouras.
+            Wivi é uma empresa estrutural dedicada a transformar visões arquitetônicas complexas em realidades seguras, eficientes e duradouras.
           </p>
           <div className="flex flex-wrap gap-4">
             <Button size="lg" className="bg-primary text-white hover:bg-primary/90 rounded-none h-14 px-8 uppercase tracking-widest font-bold group" asChild>

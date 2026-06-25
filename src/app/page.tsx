@@ -32,13 +32,12 @@ export default function Home() {
               </div>
             </div>
             <div className="reveal-on-scroll" style={{ animationDelay: '0.2s' }}>
-              <span className="text-primary uppercase tracking-[0.3em] text-[10px] font-bold mb-4 block">Sobre o Profissional</span>
               <h2 className="text-5xl font-headline font-bold uppercase mb-8">Integridade Estrutural <br /> Além dos Cálculos</h2>
               <p className="text-muted-foreground mb-6 leading-relaxed">
-                Wilton não é apenas um engenheiro; ele é um coreógrafo estrutural. Com uma base profunda em mecânica clássica e um domínio avançado de otimização computacional, ele garante que cada projeto supere os marcos de desempenho.
+                Muito mais do que cálculos, nós entregamos inteligência construtiva. Desenvolvemos projetos estruturais altamente otimizados que garantem a segurança da sua obra e reduzem custos desnecessários. Combinamos engenharia avançada e tecnologia computacional para viabilizar o seu projeto arquitetônico, garantindo o melhor custo-benefício para a sua execução.
               </p>
               <p className="text-muted-foreground mb-8 leading-relaxed">
-                Sua metodologia integra o BIM (Building Information Modeling) no núcleo, permitindo transições fluidas da análise de carga inicial à gestão no canteiro de obras. Esta abordagem holística reduz o desperdício de material enquanto maximiza a liberdade arquitetônica.
+                Nossa metodologia aplica a tecnologia BIM (Building Information Modeling) para prever e solucionar problemas antes mesmo do início da obra. Essa integração minuciosa garante uma transição perfeita para o canteiro, resultando em zero surpresas, drástica redução no desperdício de materiais e total compatibilização. Invista em um projeto que otimiza o seu tempo e maximiza os seus lucros.
               </p>
               <div className="grid grid-cols-2 gap-8 pt-8 border-t border-white/5">
                 <div>
