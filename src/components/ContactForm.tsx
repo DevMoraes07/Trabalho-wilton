@@ -12,7 +12,7 @@ export function ContactForm() {
           <span className="text-primary uppercase tracking-[0.3em] text-[10px] font-bold mb-4 block underline underline-offset-8">Consultoria</span>
           <h2 className="text-5xl font-headline font-bold uppercase mb-8">Orçamento <br /> Técnico</h2>
           <p className="text-muted-foreground mb-12 leading-relaxed text-lg">
-            Precisa de clareza estrutural ou regularização para seu empreendimento? Inicie uma revisão técnica formal agora mesmo através do nosso canal direto de atendimento.
+            Precisa de clareza em seus projetos ou regularização para seu empreendimento? Inicie uma revisão técnica formal agora mesmo através do nosso canal direto de atendimento.
           </p>
           
           <div className="max-w-md">

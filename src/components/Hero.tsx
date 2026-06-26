@@ -20,10 +20,10 @@ export function Hero() {
             <span className="text-[10px] uppercase tracking-[0.2em] font-medium">Portfólio de Engenharia de Precisão</span>
           </div>
           <h1 className="text-6xl md:text-8xl font-headline font-bold leading-[0.9] tracking-tighter mb-8 uppercase">
-            Construindo o <br /> <span className="text-primary">Futuro</span> com <br /> Rigor Estrutural
+            Construindo o <br /> <span className="text-primary">Futuro</span> com <br /> Rigor 
           </h1>
           <p className="text-lg md:text-xl text-muted-foreground max-w-xl mb-10 leading-relaxed">
-            Wivi é uma empresa estrutural dedicada a transformar visões arquitetônicas complexas em realidades seguras, eficientes e duradouras.
+            Wivi é uma empresa de projetos dedicada a transformar visões arquitetônicas complexas em realidades seguras, eficientes e duradouras.
           </p>
           <div className="flex flex-wrap gap-4">
             <Button size="lg" className="bg-primary text-white hover:bg-primary/90 rounded-none h-14 px-8 uppercase tracking-widest font-bold group" asChild>

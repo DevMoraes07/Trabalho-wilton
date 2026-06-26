@@ -18,9 +18,6 @@ export function Footer() {
           </div>
           
           <div className="flex gap-8 text-[10px] uppercase tracking-widest font-bold text-muted-foreground">
-            <a href="#" className="hover:text-primary transition-colors">LinkedIn</a>
-            <a href="#" className="hover:text-primary transition-colors">Behance</a>
-            <a href="#" className="hover:text-primary transition-colors">CV / Resume</a>
           </div>
 
           <div className="text-[10px] uppercase tracking-widest text-muted-foreground">
