@@ -41,12 +41,8 @@ export default function Home() {
               </p>
               <div className="grid grid-cols-2 gap-8 pt-8 border-t border-white/5">
                 <div>
-                  <h4 className="font-bold text-white mb-2 uppercase text-xs tracking-widest">Softwares</h4>
-                  <p className="text-xs text-muted-foreground">Revit, Rhino, SAP2000, Tekla</p>
                 </div>
                 <div>
-                  <h4 className="font-bold text-white mb-2 uppercase text-xs tracking-widest">Normas</h4>
-                  <p className="text-xs text-muted-foreground">Eurocodes, ASCE 7, ACI 318, AISC 360</p>
                 </div>
               </div>
             </div>
